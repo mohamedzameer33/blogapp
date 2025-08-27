@@ -1,5 +1,7 @@
 # Blog App – React & Firebase
 
+Live - https://zameerblog.netlify.app/
+
 A modern, interactive **Blog Application** built with **React** and **Firebase**, featuring user authentication, content creation, and engagement through comments. The app includes a **blue tick verification system** for verified users, Google Sign-In authentication, and a responsive UI for seamless experience across devices.
 
 ---
@@ -39,5 +41,5 @@ A modern, interactive **Blog Application** built with **React** and **Firebase**
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/blog-app.git
+git clone https://github.com/mohamedzameer33/blog-app.git
 cd blog-app
