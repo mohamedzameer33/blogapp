@@ -1,12 +1,43 @@
-# React + Vite
+# Blog App – React & Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive **Blog Application** built with **React** and **Firebase**, featuring user authentication, content creation, and engagement through comments. The app includes a **blue tick verification system** for verified users, Google Sign-In authentication, and a responsive UI for seamless experience across devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Google Sign-In Authentication**  
+  Users can sign in using their Google account, create a profile, and update their display name.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Blue Tick Verification System**  
+  Admin can assign a verified badge (blue tick) to users, visible to all visitors.
+
+- **Interactive Blogs**  
+  Users can view blogs, read content, and post comments in real time.
+
+- **Admin Panel**  
+  Admin can add, edit, and delete blog posts, and manage user verification.
+
+- **Responsive Design**  
+  Fully responsive layout built with React and CSS for optimal experience on desktops, tablets, and mobile devices.
+
+- **Firebase Backend**  
+  Utilizes Firebase Firestore for real-time database and Firebase Authentication for user management.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, React Router, CSS  
+- **Backend:** Firebase Firestore, Firebase Authentication  
+- **Authentication:** Google Sign-In  
+- **State Management:** React Hooks  
+
+---
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/blog-app.git
+cd blog-app
